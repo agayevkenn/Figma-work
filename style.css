@@ -1,0 +1,129 @@
+body {
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 50px;
+}
+
+.above {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.down {
+  display: flex;
+  gap: 80px;
+}
+
+.card {
+  width: 25%;
+}
+
+.cameraman1 img {
+  width: 300px;
+  height: 300px;
+}
+
+h1 {
+  font-family: roboto slab;
+  font-size: 55px;
+}
+
+.above p {
+  font-size: 24px;
+  width: 660px;
+}
+
+.text {
+  margin-right: 60px;
+}
+
+.card {
+  width: 150px;
+}
+
+.card p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.card h5 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 830px) {
+  .cameraman2 {
+    display: none;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .above p {
+    font-size: 14px;
+    width: 380px;
+  }
+
+  .cameraman1 img {
+    width: 165px;
+    height: 165px;
+  }
+
+  .down p {
+    font-size: 11px;
+  }
+
+  .card h5 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  .above p {
+    font-size: 12px;
+    width: 310px;
+  }
+
+  .above {
+    flex-direction: column;
+  }
+
+  .cameraman2 {
+    display: none;
+  }
+
+  .cameraman1 img {
+    width: 170px;
+    height: 160px;
+    margin-top: 20px;
+  }
+
+  .down p {
+    font-size: 10px;
+  }
+
+  .card h5 {
+    font-size: 12px;
+  }
+
+  .container {
+    margin: 20px;
+  }
+
+  .card {
+    width: 30%;
+  }
+
+  .down {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
