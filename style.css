@@ -103,7 +103,8 @@ h1 {
   .cameraman1 img {
     width: 170px;
     height: 160px;
-    margin-top: 20px;
+    margin: 20px 60px;
+    
   }
 
   .down p {
@@ -112,6 +113,8 @@ h1 {
 
   .card h5 {
     font-size: 12px;
+    margin: 0;
+    margin-bottom: 5px;
   }
 
   .container {
